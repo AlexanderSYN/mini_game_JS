@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+</head>
+<body>
+    <!-- header -->
+     <header>
+        <div class="mb-3">
+            <label>Деньги</label>
+            <p class="form-control" id="money"></p>
+
+            <a href="#"><img id="donate" class="donate" src="png/plus.png" /></a>
+        </div>
+     </header>
+
+     <!-- main -->
+      <main>
+        <div class="container">
+            <div class="dice-wrapper">
+                <img id="die-1">
+                <img id="die-2">
+            </div>
+            <p id="total"></p>
+            <p style="margin-top: -10px;" id="game"></p>
+            <input class="sum" type="number" placeholder="Введите ставку" required id="sum" name="money"  />
+
+            <button onclick="roll()">КИНУТЬ</button>
+        </div>
+      </main>
+
+      <!-- footer -->
+       <footer>
+
+       </footer>
+
+       <!-- script -->
+        <script src="js/main.js"></script>
+</body>
+</html>
